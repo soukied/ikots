@@ -48,10 +48,6 @@ a {
 	ul {
 		flex-direction: column;
 	}
-
-	.gambar1 {
-
-	}
 }
 
 
@@ -111,9 +107,6 @@ input {
 	width: 100%;
 }*/
 
-header {
-	
-}
 .pare1 {
 	line-height: 1.25;
 	/*height: 100vh;*/
@@ -260,10 +253,6 @@ header {
 	/*line-height: normal;*/
 	/*border-top: 2px solid #d1a1e9;*/
 
-}
-
-p {
-	/*margin-bottom: 2vh;*/
 }
 
 .welcome {
