@@ -1,0 +1,295 @@
+*{
+	/*box-sizing: border-box;*/
+	margin: 0;
+	padding: 0;
+	font-family: 'Libre Baskerville', serif;
+}
+
+html {
+	/*height: 50%;*/
+	text-align: left;
+	/*font-family: arial;*/
+}
+
+.navi {
+	position: relative;
+	/*background-image: linear-gradient(to right bottom, #9331ff, #d1a1e9);*/
+	/*background-image: url(aye.jpg);*/
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: left;
+	/*height: 100vh;*/
+	/*margin-bottom: 30%;*/
+}
+	
+ul {
+	display: flex;
+	font-size: 12px;
+	float: left;	
+	border: 1px solid #d1a1e9;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+a {
+	font-size: 16px;
+	/*font-family: sans-serif;*/
+	flex: 1;
+	text-align: center;
+}
+
+@media only screen and (max-width: 299px) {
+	ul {
+		flex-direction: column;
+	}
+
+	.gambar1 {
+
+	}
+}
+
+
+a {
+	/*font-family: 'Libre Baskerville', serif;*/
+	/*border-right: 1px solid green;*/
+  	display: block;
+  	color: #000;
+  	padding: 10px 11.6px;
+	text-decoration: none;
+}
+
+
+/* Change the link color on hover */
+a.active,a:hover {
+	background-color: purple;
+	 /*background-image: linear-gradient(to right top, purple, #d1a1e9);*/
+	color: white;
+}
+.pencarian {
+	display: flex;
+	width: 100vw;
+	/*border: 1px solid #fff;*/
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+}
+
+button {
+	background-repeat: no-repeat;
+	background-image: url('search.png');
+	background-size: 100%;
+	background-position: center;
+	background-color: transparent; 
+	border: 2px solid transparent;
+	/*margin-top: 6px;*/
+	margin: 0 10px;
+	height: 30px;
+	width: 30px;
+	/*border: 1px solid #fff;*/
+}
+
+input {
+	display: block;
+	width: 100%;
+	border: 1px solid #d1a1e9;
+	border-radius: 5px;
+	padding: 6px 12px;
+	/*padding-right: 100px;*/
+	margin-left: 10px;
+}
+
+/*header{
+	background-color: red;
+	height: 400px;
+	width: 100%;
+}*/
+
+header {
+	
+}
+.pare1 {
+	line-height: 1.25;
+	/*height: 100vh;*/
+	margin-top: -2.75vh;
+	align-items: left;
+	/*justify-content: center;*/
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.pasupare {
+	/*background-image: url('aye.jpg');*/
+	margin-top: 3vh;
+	border-top: 1px solid #d1a1e9;
+	padding-bottom: 1vh;
+	padding-top: 0.5vh;
+}
+.gambar1 {	
+	border-right: 1px solid #d1a1e9;
+	margin-top: 2vh;
+	margin-left: 1.5vh;
+	background-repeat: no-repeat;
+	background-image: url('Putih Oren.png');
+	background-size: 100%;
+	background-position: center;
+	background-color: transparent; 
+	height: 100px;
+	width: 100px;
+}
+
+.gambar2 {	
+	border-right: 1px solid #d1a1e9;
+	margin-top: 2vh;
+	margin-left: 1.5vh;
+	background-repeat: no-repeat;
+	background-image: url('Putih Abu.png');
+	background-size: 100%;
+	background-position: center;
+	background-color: transparent; 
+	height: 100px;
+	width: 100px;
+}
+
+.gambar3 {	
+	border-right: 1px solid #d1a1e9;
+	margin-top: 2vh;
+	margin-left: 1.5vh;
+	background-repeat: no-repeat;
+	background-image: url('Putih Hijau Muda.png');
+	background-size: 100%;
+	background-position: center;
+	background-color: transparent; 
+	height: 100px;
+	width: 100px;
+}
+
+.gambar4 {	
+	border-right: 1px solid #d1a1e9;
+	margin-top: 2vh;
+	margin-left: 1.5vh;
+	background-repeat: no-repeat;
+	background-image: url('Putih Biru Muda.png');
+	background-size: 100%;
+	background-position: center;
+	background-color: transparent; 
+	height: 100px;
+	width: 100px;
+}
+
+.gambar5 {	
+	border-right: 1px solid #d1a1e9;
+	margin-top: 2vh;
+	margin-left: 1.5vh;
+	background-repeat: no-repeat;
+	background-image: url('Putih Kuning.png');
+	background-size: 100%;
+	background-position: center;
+	background-color: transparent; 
+	height: 100px;
+	width: 100px;
+}
+
+.gambar6 {	
+	border-right: 1px solid #d1a1e9;
+	margin-top: 2vh;
+	margin-left: 1.5vh;
+	background-repeat: no-repeat;
+	background-image: url('Putih Biru Tua.png');
+	background-size: 100%;
+	background-position: center;
+	background-color: transparent; 
+	height: 100px;
+	width: 100px;
+}
+
+.gambar7 {	
+	border-right: 1px solid #d1a1e9;
+	margin-top: 2vh;
+	margin-left: 1.5vh;
+	background-repeat: no-repeat;
+	background-image: url('Putih Hijau Tua.png');
+	background-size: 100%;
+	background-position: center;
+	background-color: transparent; 
+	height: 100px;
+	width: 100px;
+}
+
+.gambar8 {	
+	border-right: 1px solid #d1a1e9;
+	margin-top: 2vh;
+	margin-left: 1.5vh;
+	background-repeat: no-repeat;
+	background-image: url('Putih Kuning Muda.png');
+	background-size: 100%;
+	background-position: center;
+	background-color: transparent; 
+	height: 100px;
+	width: 100px;
+}
+.paragraf1 {
+	/*color: white;	*/
+	height: 15%;
+	/*width: 30%;*/
+	position: absolute;
+	margin-top: 2.5vh;
+	margin-left: 20vh;
+	margin-right: 2vh;
+	margin-bottom: 1.5vh;
+	/*padding-bottom: 2vh;*/
+	font-size: 12px;
+	/*white-space: pre-line;*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/*overflow-y: hidden;*/
+	overflow-y: scroll;
+	/*overflow-x: scroll;*/
+	/*padding-top: 10%;*/
+	/*border: 2px solid #d1a1e9;*/
+	/*border-radius: 3%;*/
+	/*border-bottom: 2px solid #d1a1e9*/
+	/*border-top: 2px solid #d1a1e9;*/
+	/*line-height: normal;*/
+	/*border-top: 2px solid #d1a1e9;*/
+
+}
+
+p {
+	/*margin-bottom: 2vh;*/
+}
+
+.welcome {
+	margin-top: 5vh;
+	margin-left: 8vh;
+	margin-right: 7vh;
+	margin-bottom: 1.5vh;
+	height: 15%;
+	/*text-align: center;*/
+}
+
+.uwu {
+	margin-top: 5vh;
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-bottom: 1.5vh;
+	height: 15%;
+	text-align: center;
+}
+.welcome h1 {
+	font-size: 25px;
+	text-align: center;
+}
+
+.help {
+	text-align: left;
+	text-overflow: ellipsis;
+	/*margin-left: 2vh;*/
+}

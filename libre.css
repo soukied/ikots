@@ -1,0 +1,5 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Monsterrat';
+  src: local('Monsterrat'), local('Monsterrat'), url(monsterrat_regular.ttf);
+}

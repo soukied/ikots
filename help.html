@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>IKots</title>
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="navi">
+		<div class="navigation">
+			<ul id="nav">
+				<a href="home.html" class="item">Home</a>
+				<a href="angkot.html" class="item">Angkots</a>
+				<a href="#" class="item active">Help</a>			
+				<a href="about.html" class="item">About</a>
+			</ul>
+		</div>
+		<!-- <div class="pencarian">
+			<input type="text" id="searchbox" placeholder="Pencarian">
+			<button type="submit"></button>	
+		</div> -->
+	</div>
+	<header>
+		<div class="pare1">
+			<div class="uwu">
+				<h1>Bantuan IKots</h1>
+				<br>
+				<p>Aplikasi Angkot Online Berbasis GPS
+			</div>
+			<div class="welcome">
+				</p>
+				<br>
+				<div class="help">
+					<p>Hidupkan GPS.</p>
+					<br>
+					<p>Buka aplikasi IKots.</p>
+					<br>
+					<p>Silahkan mencari lokasi tujuan.</p>
+					<br>
+					<p>Konfirmasi lokasi tujuan.</p>
+					<br>
+					<p>Angkot dijalur yang sama akan mengetahui lokasi anda sekarang.</p>
+					<br>
+					<p>Silahkan menggunakan fitur "Angkots" untuk mengetahui jalur dan tujuan angkot.</p>
+					<br>
+				</div>
+			</div>
+
+
+		</div>
+
+	</header>
+
+	
+	<!-- <header>
+		<h1>asdasd</h1>		
+	</header>
+	<script src="D:/all-about-makassar-master/jquery.js"></script> -->
+	<script>
+		var btnContainer = document.getElementById("nav");
+		var btns = btnContainer.getElementsByClassName("item");
+
+		for (var i=0; i < btns.length; i++) {
+			btns[i].addEventListener("click", function () {
+					var current = document.getElementsByClassName("active");
+					current[0].className = current[0].className.replace(" active","");
+					this.className += " active";
+			});
+		}
+	</script>
+</body>
+</html>
