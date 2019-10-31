@@ -25,6 +25,9 @@ html {
 	/*margin-bottom: 30%;*/
 }
 	
+body {
+	overflow-x: hidden;
+}
 ul {
 	display: flex;
 	font-size: 12px;
@@ -48,8 +51,102 @@ a {
 	ul {
 		flex-direction: column;
 	}
+
+	.gambar1 {
+
+	}
 }
 
+@media only screen and (max-height: 539px) {
+	.paragraf1 {
+
+	}
+}
+
+@media only screen and (max-height: 599px) {
+	.paragraf1 {
+		left: 2vh;
+	}
+}
+
+
+@media only screen and (max-height: 529px) {
+	.paragraf1 {
+		left: 4vh;
+	}
+}
+
+@media only screen and (max-height: 499px) {
+	.paragraf1 {
+		left: 6vh;
+	}
+}
+
+@media only screen and (max-height: 429px) {
+	.paragraf1 {
+		left: 9vh;
+	}
+}
+
+@media only screen and (max-height: 399px) {
+	.paragraf1 {
+		left: 10vh;
+	}
+}
+
+@media only screen and (max-height: 379px) {
+	.paragraf1 {
+		left: 12vh;
+	}
+}
+
+@media only screen and (max-height: 359px) {
+	.paragraf1 {
+		left: 14vh;
+	}
+}
+
+@media only screen and (max-height: 324px) {
+	.paragraf1 {
+		left: 16vh;
+	}
+}
+
+@media only screen and (max-height: 299px) {
+	.paragraf1 {
+		left: 19vh;
+	}
+}
+
+@media only screen and (max-height: 280px) {
+	.paragraf1 {
+		left: 22vh;
+	}
+}
+
+@media only screen and (max-height: 259px) {
+	.paragraf1 {
+		left: 25vh;
+	}
+}
+
+@media only screen and (max-height: 249px) {
+	.paragraf1 {
+		left: 27vh;
+	}
+}
+
+@media only screen and (max-height: 239px) {
+	.paragraf1 {
+		left: 30vh;
+	}
+}
+
+@media only screen and (max-height: 214px) {
+	.paragraf1 {
+		left: 34vh;
+	}
+}
 
 a {
 	/*font-family: 'Libre Baskerville', serif;*/
@@ -107,6 +204,9 @@ input {
 	width: 100%;
 }*/
 
+header {
+	
+}
 .pare1 {
 	line-height: 1.25;
 	/*height: 100vh;*/
@@ -120,11 +220,17 @@ input {
 
 .pasupare {
 	/*background-image: url('aye.jpg');*/
-	margin-top: 3vh;
+	margin-top: 4vh;
 	border-top: 1px solid #d1a1e9;
-	padding-bottom: 1vh;
 	padding-top: 0.5vh;
 }
+
+/*.pasupare2 {
+	margin-top: 4vh;
+	border-top: 1px solid #d1a1e9;
+	padding-top: 0.5vh;
+}*/
+
 .gambar1 {	
 	border-right: 1px solid #d1a1e9;
 	margin-top: 2vh;
@@ -230,7 +336,7 @@ input {
 }
 .paragraf1 {
 	/*color: white;	*/
-	height: 15%;
+	height: 27.5vw;
 	/*width: 30%;*/
 	position: absolute;
 	margin-top: 2.5vh;
@@ -240,7 +346,7 @@ input {
 	/*padding-bottom: 2vh;*/
 	font-size: 12px;
 	/*white-space: pre-line;*/
-	overflow: hidden;
+	/*overflow-x: hidden;*/
 	text-overflow: ellipsis;
 	/*overflow-y: hidden;*/
 	overflow-y: scroll;
@@ -253,6 +359,10 @@ input {
 	/*line-height: normal;*/
 	/*border-top: 2px solid #d1a1e9;*/
 
+}
+
+p {
+	/*margin-bottom: 2vh;*/
 }
 
 .welcome {
@@ -281,4 +391,8 @@ input {
 	text-align: left;
 	text-overflow: ellipsis;
 	/*margin-left: 2vh;*/
+}
+
+.paragraf1 p {
+	/*padding-bottom: 10%;*/
 }
